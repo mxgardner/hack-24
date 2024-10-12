@@ -1,6 +1,6 @@
 //
-//  testApp.swift
-//  test
+//  hackAppApp.swift
+//  hackApp
 //
 //  Created by Mariah Jade Gardner on 10/12/24.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct testApp: App {
+struct hackAppApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

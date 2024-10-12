@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  test
+//  hackApp
 //
 //  Created by Mariah Jade Gardner on 10/12/24.
 //

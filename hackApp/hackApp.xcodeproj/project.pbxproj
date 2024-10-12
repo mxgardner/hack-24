@@ -7,62 +7,62 @@
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
-		FEB2D7FB2CBB0A92001B7613 /* PBXContainerItemProxy */ = {
+		FEB2D8312CBB0B0A001B7613 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FEB2D7E22CBB0A90001B7613 /* Project object */;
+			containerPortal = FEB2D8182CBB0B05001B7613 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FEB2D7E92CBB0A90001B7613;
-			remoteInfo = test;
+			remoteGlobalIDString = FEB2D81F2CBB0B05001B7613;
+			remoteInfo = hackApp;
 		};
-		FEB2D8052CBB0A92001B7613 /* PBXContainerItemProxy */ = {
+		FEB2D83B2CBB0B0A001B7613 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FEB2D7E22CBB0A90001B7613 /* Project object */;
+			containerPortal = FEB2D8182CBB0B05001B7613 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FEB2D7E92CBB0A90001B7613;
-			remoteInfo = test;
+			remoteGlobalIDString = FEB2D81F2CBB0B05001B7613;
+			remoteInfo = hackApp;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FEB2D7EA2CBB0A90001B7613 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FEB2D7FA2CBB0A92001B7613 /* testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FEB2D8042CBB0A92001B7613 /* testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEB2D8202CBB0B05001B7613 /* hackApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hackApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEB2D8302CBB0B0A001B7613 /* hackAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hackAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEB2D83A2CBB0B0A001B7613 /* hackAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hackAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		FEB2D7EC2CBB0A90001B7613 /* test */ = {
+		FEB2D8222CBB0B05001B7613 /* hackApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = test;
+			path = hackApp;
 			sourceTree = "<group>";
 		};
-		FEB2D7FD2CBB0A92001B7613 /* testTests */ = {
+		FEB2D8332CBB0B0A001B7613 /* hackAppTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = testTests;
+			path = hackAppTests;
 			sourceTree = "<group>";
 		};
-		FEB2D8072CBB0A92001B7613 /* testUITests */ = {
+		FEB2D83D2CBB0B0A001B7613 /* hackAppUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = testUITests;
+			path = hackAppUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FEB2D7E72CBB0A90001B7613 /* Frameworks */ = {
+		FEB2D81D2CBB0B05001B7613 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FEB2D7F72CBB0A92001B7613 /* Frameworks */ = {
+		FEB2D82D2CBB0B0A001B7613 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FEB2D8012CBB0A92001B7613 /* Frameworks */ = {
+		FEB2D8372CBB0B0A001B7613 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,22 +72,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FEB2D7E12CBB0A90001B7613 = {
+		FEB2D8172CBB0B05001B7613 = {
 			isa = PBXGroup;
 			children = (
-				FEB2D7EC2CBB0A90001B7613 /* test */,
-				FEB2D7FD2CBB0A92001B7613 /* testTests */,
-				FEB2D8072CBB0A92001B7613 /* testUITests */,
-				FEB2D7EB2CBB0A90001B7613 /* Products */,
+				FEB2D8222CBB0B05001B7613 /* hackApp */,
+				FEB2D8332CBB0B0A001B7613 /* hackAppTests */,
+				FEB2D83D2CBB0B0A001B7613 /* hackAppUITests */,
+				FEB2D8212CBB0B05001B7613 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		FEB2D7EB2CBB0A90001B7613 /* Products */ = {
+		FEB2D8212CBB0B05001B7613 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FEB2D7EA2CBB0A90001B7613 /* test.app */,
-				FEB2D7FA2CBB0A92001B7613 /* testTests.xctest */,
-				FEB2D8042CBB0A92001B7613 /* testUITests.xctest */,
+				FEB2D8202CBB0B05001B7613 /* hackApp.app */,
+				FEB2D8302CBB0B0A001B7613 /* hackAppTests.xctest */,
+				FEB2D83A2CBB0B0A001B7613 /* hackAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,134 +95,134 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FEB2D7E92CBB0A90001B7613 /* test */ = {
+		FEB2D81F2CBB0B05001B7613 /* hackApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FEB2D80E2CBB0A92001B7613 /* Build configuration list for PBXNativeTarget "test" */;
+			buildConfigurationList = FEB2D8442CBB0B0A001B7613 /* Build configuration list for PBXNativeTarget "hackApp" */;
 			buildPhases = (
-				FEB2D7E62CBB0A90001B7613 /* Sources */,
-				FEB2D7E72CBB0A90001B7613 /* Frameworks */,
-				FEB2D7E82CBB0A90001B7613 /* Resources */,
+				FEB2D81C2CBB0B05001B7613 /* Sources */,
+				FEB2D81D2CBB0B05001B7613 /* Frameworks */,
+				FEB2D81E2CBB0B05001B7613 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				FEB2D7EC2CBB0A90001B7613 /* test */,
+				FEB2D8222CBB0B05001B7613 /* hackApp */,
 			);
-			name = test;
+			name = hackApp;
 			packageProductDependencies = (
 			);
-			productName = test;
-			productReference = FEB2D7EA2CBB0A90001B7613 /* test.app */;
+			productName = hackApp;
+			productReference = FEB2D8202CBB0B05001B7613 /* hackApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FEB2D7F92CBB0A92001B7613 /* testTests */ = {
+		FEB2D82F2CBB0B0A001B7613 /* hackAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FEB2D8112CBB0A92001B7613 /* Build configuration list for PBXNativeTarget "testTests" */;
+			buildConfigurationList = FEB2D8472CBB0B0A001B7613 /* Build configuration list for PBXNativeTarget "hackAppTests" */;
 			buildPhases = (
-				FEB2D7F62CBB0A92001B7613 /* Sources */,
-				FEB2D7F72CBB0A92001B7613 /* Frameworks */,
-				FEB2D7F82CBB0A92001B7613 /* Resources */,
+				FEB2D82C2CBB0B0A001B7613 /* Sources */,
+				FEB2D82D2CBB0B0A001B7613 /* Frameworks */,
+				FEB2D82E2CBB0B0A001B7613 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FEB2D7FC2CBB0A92001B7613 /* PBXTargetDependency */,
+				FEB2D8322CBB0B0A001B7613 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				FEB2D7FD2CBB0A92001B7613 /* testTests */,
+				FEB2D8332CBB0B0A001B7613 /* hackAppTests */,
 			);
-			name = testTests;
+			name = hackAppTests;
 			packageProductDependencies = (
 			);
-			productName = testTests;
-			productReference = FEB2D7FA2CBB0A92001B7613 /* testTests.xctest */;
+			productName = hackAppTests;
+			productReference = FEB2D8302CBB0B0A001B7613 /* hackAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		FEB2D8032CBB0A92001B7613 /* testUITests */ = {
+		FEB2D8392CBB0B0A001B7613 /* hackAppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FEB2D8142CBB0A92001B7613 /* Build configuration list for PBXNativeTarget "testUITests" */;
+			buildConfigurationList = FEB2D84A2CBB0B0A001B7613 /* Build configuration list for PBXNativeTarget "hackAppUITests" */;
 			buildPhases = (
-				FEB2D8002CBB0A92001B7613 /* Sources */,
-				FEB2D8012CBB0A92001B7613 /* Frameworks */,
-				FEB2D8022CBB0A92001B7613 /* Resources */,
+				FEB2D8362CBB0B0A001B7613 /* Sources */,
+				FEB2D8372CBB0B0A001B7613 /* Frameworks */,
+				FEB2D8382CBB0B0A001B7613 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FEB2D8062CBB0A92001B7613 /* PBXTargetDependency */,
+				FEB2D83C2CBB0B0A001B7613 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				FEB2D8072CBB0A92001B7613 /* testUITests */,
+				FEB2D83D2CBB0B0A001B7613 /* hackAppUITests */,
 			);
-			name = testUITests;
+			name = hackAppUITests;
 			packageProductDependencies = (
 			);
-			productName = testUITests;
-			productReference = FEB2D8042CBB0A92001B7613 /* testUITests.xctest */;
+			productName = hackAppUITests;
+			productReference = FEB2D83A2CBB0B0A001B7613 /* hackAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FEB2D7E22CBB0A90001B7613 /* Project object */ = {
+		FEB2D8182CBB0B05001B7613 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
-					FEB2D7E92CBB0A90001B7613 = {
+					FEB2D81F2CBB0B05001B7613 = {
 						CreatedOnToolsVersion = 16.0;
 					};
-					FEB2D7F92CBB0A92001B7613 = {
+					FEB2D82F2CBB0B0A001B7613 = {
 						CreatedOnToolsVersion = 16.0;
-						TestTargetID = FEB2D7E92CBB0A90001B7613;
+						TestTargetID = FEB2D81F2CBB0B05001B7613;
 					};
-					FEB2D8032CBB0A92001B7613 = {
+					FEB2D8392CBB0B0A001B7613 = {
 						CreatedOnToolsVersion = 16.0;
-						TestTargetID = FEB2D7E92CBB0A90001B7613;
+						TestTargetID = FEB2D81F2CBB0B05001B7613;
 					};
 				};
 			};
-			buildConfigurationList = FEB2D7E52CBB0A90001B7613 /* Build configuration list for PBXProject "test" */;
+			buildConfigurationList = FEB2D81B2CBB0B05001B7613 /* Build configuration list for PBXProject "hackApp" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = FEB2D7E12CBB0A90001B7613;
+			mainGroup = FEB2D8172CBB0B05001B7613;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = FEB2D7EB2CBB0A90001B7613 /* Products */;
+			productRefGroup = FEB2D8212CBB0B05001B7613 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FEB2D7E92CBB0A90001B7613 /* test */,
-				FEB2D7F92CBB0A92001B7613 /* testTests */,
-				FEB2D8032CBB0A92001B7613 /* testUITests */,
+				FEB2D81F2CBB0B05001B7613 /* hackApp */,
+				FEB2D82F2CBB0B0A001B7613 /* hackAppTests */,
+				FEB2D8392CBB0B0A001B7613 /* hackAppUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FEB2D7E82CBB0A90001B7613 /* Resources */ = {
+		FEB2D81E2CBB0B05001B7613 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FEB2D7F82CBB0A92001B7613 /* Resources */ = {
+		FEB2D82E2CBB0B0A001B7613 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FEB2D8022CBB0A92001B7613 /* Resources */ = {
+		FEB2D8382CBB0B0A001B7613 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -232,21 +232,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FEB2D7E62CBB0A90001B7613 /* Sources */ = {
+		FEB2D81C2CBB0B05001B7613 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FEB2D7F62CBB0A92001B7613 /* Sources */ = {
+		FEB2D82C2CBB0B0A001B7613 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FEB2D8002CBB0A92001B7613 /* Sources */ = {
+		FEB2D8362CBB0B0A001B7613 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -256,20 +256,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		FEB2D7FC2CBB0A92001B7613 /* PBXTargetDependency */ = {
+		FEB2D8322CBB0B0A001B7613 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FEB2D7E92CBB0A90001B7613 /* test */;
-			targetProxy = FEB2D7FB2CBB0A92001B7613 /* PBXContainerItemProxy */;
+			target = FEB2D81F2CBB0B05001B7613 /* hackApp */;
+			targetProxy = FEB2D8312CBB0B0A001B7613 /* PBXContainerItemProxy */;
 		};
-		FEB2D8062CBB0A92001B7613 /* PBXTargetDependency */ = {
+		FEB2D83C2CBB0B0A001B7613 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FEB2D7E92CBB0A90001B7613 /* test */;
-			targetProxy = FEB2D8052CBB0A92001B7613 /* PBXContainerItemProxy */;
+			target = FEB2D81F2CBB0B05001B7613 /* hackApp */;
+			targetProxy = FEB2D83B2CBB0B0A001B7613 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		FEB2D80C2CBB0A92001B7613 /* Debug */ = {
+		FEB2D8422CBB0B0A001B7613 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -332,7 +332,7 @@
 			};
 			name = Debug;
 		};
-		FEB2D80D2CBB0A92001B7613 /* Release */ = {
+		FEB2D8432CBB0B0A001B7613 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -388,14 +388,14 @@
 			};
 			name = Release;
 		};
-		FEB2D80F2CBB0A92001B7613 /* Debug */ = {
+		FEB2D8452CBB0B0A001B7613 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"test/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"hackApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -408,7 +408,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = mariah.test;
+				PRODUCT_BUNDLE_IDENTIFIER = mariah.hackApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -416,14 +416,14 @@
 			};
 			name = Debug;
 		};
-		FEB2D8102CBB0A92001B7613 /* Release */ = {
+		FEB2D8462CBB0B0A001B7613 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"test/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"hackApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -436,7 +436,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = mariah.test;
+				PRODUCT_BUNDLE_IDENTIFIER = mariah.hackApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -444,7 +444,7 @@
 			};
 			name = Release;
 		};
-		FEB2D8122CBB0A92001B7613 /* Debug */ = {
+		FEB2D8482CBB0B0A001B7613 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -453,16 +453,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = mariah.testTests;
+				PRODUCT_BUNDLE_IDENTIFIER = mariah.hackAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/test";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hackApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hackApp";
 			};
 			name = Debug;
 		};
-		FEB2D8132CBB0A92001B7613 /* Release */ = {
+		FEB2D8492CBB0B0A001B7613 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,87 +471,87 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = mariah.testTests;
+				PRODUCT_BUNDLE_IDENTIFIER = mariah.hackAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/test";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hackApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hackApp";
 			};
 			name = Release;
 		};
-		FEB2D8152CBB0A92001B7613 /* Debug */ = {
+		FEB2D84B2CBB0B0A001B7613 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = mariah.testUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = mariah.hackAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = test;
+				TEST_TARGET_NAME = hackApp;
 			};
 			name = Debug;
 		};
-		FEB2D8162CBB0A92001B7613 /* Release */ = {
+		FEB2D84C2CBB0B0A001B7613 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = mariah.testUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = mariah.hackAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = test;
+				TEST_TARGET_NAME = hackApp;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FEB2D7E52CBB0A90001B7613 /* Build configuration list for PBXProject "test" */ = {
+		FEB2D81B2CBB0B05001B7613 /* Build configuration list for PBXProject "hackApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FEB2D80C2CBB0A92001B7613 /* Debug */,
-				FEB2D80D2CBB0A92001B7613 /* Release */,
+				FEB2D8422CBB0B0A001B7613 /* Debug */,
+				FEB2D8432CBB0B0A001B7613 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FEB2D80E2CBB0A92001B7613 /* Build configuration list for PBXNativeTarget "test" */ = {
+		FEB2D8442CBB0B0A001B7613 /* Build configuration list for PBXNativeTarget "hackApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FEB2D80F2CBB0A92001B7613 /* Debug */,
-				FEB2D8102CBB0A92001B7613 /* Release */,
+				FEB2D8452CBB0B0A001B7613 /* Debug */,
+				FEB2D8462CBB0B0A001B7613 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FEB2D8112CBB0A92001B7613 /* Build configuration list for PBXNativeTarget "testTests" */ = {
+		FEB2D8472CBB0B0A001B7613 /* Build configuration list for PBXNativeTarget "hackAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FEB2D8122CBB0A92001B7613 /* Debug */,
-				FEB2D8132CBB0A92001B7613 /* Release */,
+				FEB2D8482CBB0B0A001B7613 /* Debug */,
+				FEB2D8492CBB0B0A001B7613 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FEB2D8142CBB0A92001B7613 /* Build configuration list for PBXNativeTarget "testUITests" */ = {
+		FEB2D84A2CBB0B0A001B7613 /* Build configuration list for PBXNativeTarget "hackAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FEB2D8152CBB0A92001B7613 /* Debug */,
-				FEB2D8162CBB0A92001B7613 /* Release */,
+				FEB2D84B2CBB0B0A001B7613 /* Debug */,
+				FEB2D84C2CBB0B0A001B7613 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FEB2D7E22CBB0A90001B7613 /* Project object */;
+	rootObject = FEB2D8182CBB0B05001B7613 /* Project object */;
 }
