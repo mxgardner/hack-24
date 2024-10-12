@@ -1,13 +1,13 @@
 //
-//  hackAppUITestsLaunchTests.swift
-//  hackAppUITests
+//  hack_appUITestsLaunchTests.swift
+//  hack-appUITests
 //
 //  Created by Mariah Jade Gardner on 10/12/24.
 //
 
 import XCTest
 
-final class hackAppUITestsLaunchTests: XCTestCase {
+final class hack_appUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

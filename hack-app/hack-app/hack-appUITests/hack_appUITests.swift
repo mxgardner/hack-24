@@ -1,13 +1,13 @@
 //
-//  hackAppUITests.swift
-//  hackAppUITests
+//  hack_appUITests.swift
+//  hack-appUITests
 //
 //  Created by Mariah Jade Gardner on 10/12/24.
 //
 
 import XCTest
 
-final class hackAppUITests: XCTestCase {
+final class hack_appUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

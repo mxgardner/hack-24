@@ -7,62 +7,75 @@
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
-		FEB2D8312CBB0B0A001B7613 /* PBXContainerItemProxy */ = {
+		FED812EB2CBB0F09001E2C48 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FEB2D8182CBB0B05001B7613 /* Project object */;
+			containerPortal = FED812CC2CBB0F07001E2C48 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FEB2D81F2CBB0B05001B7613;
-			remoteInfo = hackApp;
+			remoteGlobalIDString = FED812D32CBB0F07001E2C48;
+			remoteInfo = "hack-app";
 		};
-		FEB2D83B2CBB0B0A001B7613 /* PBXContainerItemProxy */ = {
+		FED812F52CBB0F09001E2C48 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FEB2D8182CBB0B05001B7613 /* Project object */;
+			containerPortal = FED812CC2CBB0F07001E2C48 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FEB2D81F2CBB0B05001B7613;
-			remoteInfo = hackApp;
+			remoteGlobalIDString = FED812D32CBB0F07001E2C48;
+			remoteInfo = "hack-app";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FEB2D8202CBB0B05001B7613 /* hackApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hackApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FEB2D8302CBB0B0A001B7613 /* hackAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hackAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FEB2D83A2CBB0B0A001B7613 /* hackAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hackAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FED812D42CBB0F07001E2C48 /* hack-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hack-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FED812EA2CBB0F09001E2C48 /* hack-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hack-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FED812F42CBB0F09001E2C48 /* hack-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hack-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		FED812FC2CBB0F09001E2C48 /* Exceptions for "hack-app" folder in "hack-app" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = FED812D32CBB0F07001E2C48 /* hack-app */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		FEB2D8222CBB0B05001B7613 /* hackApp */ = {
+		FED812D62CBB0F07001E2C48 /* hack-app */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = hackApp;
+			exceptions = (
+				FED812FC2CBB0F09001E2C48 /* Exceptions for "hack-app" folder in "hack-app" target */,
+			);
+			path = "hack-app";
 			sourceTree = "<group>";
 		};
-		FEB2D8332CBB0B0A001B7613 /* hackAppTests */ = {
+		FED812ED2CBB0F09001E2C48 /* hack-appTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = hackAppTests;
+			path = "hack-appTests";
 			sourceTree = "<group>";
 		};
-		FEB2D83D2CBB0B0A001B7613 /* hackAppUITests */ = {
+		FED812F72CBB0F09001E2C48 /* hack-appUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = hackAppUITests;
+			path = "hack-appUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FEB2D81D2CBB0B05001B7613 /* Frameworks */ = {
+		FED812D12CBB0F07001E2C48 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FEB2D82D2CBB0B0A001B7613 /* Frameworks */ = {
+		FED812E72CBB0F09001E2C48 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FEB2D8372CBB0B0A001B7613 /* Frameworks */ = {
+		FED812F12CBB0F09001E2C48 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,22 +85,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FEB2D8172CBB0B05001B7613 = {
+		FED812CB2CBB0F07001E2C48 = {
 			isa = PBXGroup;
 			children = (
-				FEB2D8222CBB0B05001B7613 /* hackApp */,
-				FEB2D8332CBB0B0A001B7613 /* hackAppTests */,
-				FEB2D83D2CBB0B0A001B7613 /* hackAppUITests */,
-				FEB2D8212CBB0B05001B7613 /* Products */,
+				FED812D62CBB0F07001E2C48 /* hack-app */,
+				FED812ED2CBB0F09001E2C48 /* hack-appTests */,
+				FED812F72CBB0F09001E2C48 /* hack-appUITests */,
+				FED812D52CBB0F07001E2C48 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		FEB2D8212CBB0B05001B7613 /* Products */ = {
+		FED812D52CBB0F07001E2C48 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FEB2D8202CBB0B05001B7613 /* hackApp.app */,
-				FEB2D8302CBB0B0A001B7613 /* hackAppTests.xctest */,
-				FEB2D83A2CBB0B0A001B7613 /* hackAppUITests.xctest */,
+				FED812D42CBB0F07001E2C48 /* hack-app.app */,
+				FED812EA2CBB0F09001E2C48 /* hack-appTests.xctest */,
+				FED812F42CBB0F09001E2C48 /* hack-appUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,134 +108,134 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FEB2D81F2CBB0B05001B7613 /* hackApp */ = {
+		FED812D32CBB0F07001E2C48 /* hack-app */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FEB2D8442CBB0B0A001B7613 /* Build configuration list for PBXNativeTarget "hackApp" */;
+			buildConfigurationList = FED812FD2CBB0F09001E2C48 /* Build configuration list for PBXNativeTarget "hack-app" */;
 			buildPhases = (
-				FEB2D81C2CBB0B05001B7613 /* Sources */,
-				FEB2D81D2CBB0B05001B7613 /* Frameworks */,
-				FEB2D81E2CBB0B05001B7613 /* Resources */,
+				FED812D02CBB0F07001E2C48 /* Sources */,
+				FED812D12CBB0F07001E2C48 /* Frameworks */,
+				FED812D22CBB0F07001E2C48 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				FEB2D8222CBB0B05001B7613 /* hackApp */,
+				FED812D62CBB0F07001E2C48 /* hack-app */,
 			);
-			name = hackApp;
+			name = "hack-app";
 			packageProductDependencies = (
 			);
-			productName = hackApp;
-			productReference = FEB2D8202CBB0B05001B7613 /* hackApp.app */;
+			productName = "hack-app";
+			productReference = FED812D42CBB0F07001E2C48 /* hack-app.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FEB2D82F2CBB0B0A001B7613 /* hackAppTests */ = {
+		FED812E92CBB0F09001E2C48 /* hack-appTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FEB2D8472CBB0B0A001B7613 /* Build configuration list for PBXNativeTarget "hackAppTests" */;
+			buildConfigurationList = FED813022CBB0F09001E2C48 /* Build configuration list for PBXNativeTarget "hack-appTests" */;
 			buildPhases = (
-				FEB2D82C2CBB0B0A001B7613 /* Sources */,
-				FEB2D82D2CBB0B0A001B7613 /* Frameworks */,
-				FEB2D82E2CBB0B0A001B7613 /* Resources */,
+				FED812E62CBB0F09001E2C48 /* Sources */,
+				FED812E72CBB0F09001E2C48 /* Frameworks */,
+				FED812E82CBB0F09001E2C48 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FEB2D8322CBB0B0A001B7613 /* PBXTargetDependency */,
+				FED812EC2CBB0F09001E2C48 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				FEB2D8332CBB0B0A001B7613 /* hackAppTests */,
+				FED812ED2CBB0F09001E2C48 /* hack-appTests */,
 			);
-			name = hackAppTests;
+			name = "hack-appTests";
 			packageProductDependencies = (
 			);
-			productName = hackAppTests;
-			productReference = FEB2D8302CBB0B0A001B7613 /* hackAppTests.xctest */;
+			productName = "hack-appTests";
+			productReference = FED812EA2CBB0F09001E2C48 /* hack-appTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		FEB2D8392CBB0B0A001B7613 /* hackAppUITests */ = {
+		FED812F32CBB0F09001E2C48 /* hack-appUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FEB2D84A2CBB0B0A001B7613 /* Build configuration list for PBXNativeTarget "hackAppUITests" */;
+			buildConfigurationList = FED813052CBB0F09001E2C48 /* Build configuration list for PBXNativeTarget "hack-appUITests" */;
 			buildPhases = (
-				FEB2D8362CBB0B0A001B7613 /* Sources */,
-				FEB2D8372CBB0B0A001B7613 /* Frameworks */,
-				FEB2D8382CBB0B0A001B7613 /* Resources */,
+				FED812F02CBB0F09001E2C48 /* Sources */,
+				FED812F12CBB0F09001E2C48 /* Frameworks */,
+				FED812F22CBB0F09001E2C48 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FEB2D83C2CBB0B0A001B7613 /* PBXTargetDependency */,
+				FED812F62CBB0F09001E2C48 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				FEB2D83D2CBB0B0A001B7613 /* hackAppUITests */,
+				FED812F72CBB0F09001E2C48 /* hack-appUITests */,
 			);
-			name = hackAppUITests;
+			name = "hack-appUITests";
 			packageProductDependencies = (
 			);
-			productName = hackAppUITests;
-			productReference = FEB2D83A2CBB0B0A001B7613 /* hackAppUITests.xctest */;
+			productName = "hack-appUITests";
+			productReference = FED812F42CBB0F09001E2C48 /* hack-appUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FEB2D8182CBB0B05001B7613 /* Project object */ = {
+		FED812CC2CBB0F07001E2C48 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
-					FEB2D81F2CBB0B05001B7613 = {
+					FED812D32CBB0F07001E2C48 = {
 						CreatedOnToolsVersion = 16.0;
 					};
-					FEB2D82F2CBB0B0A001B7613 = {
+					FED812E92CBB0F09001E2C48 = {
 						CreatedOnToolsVersion = 16.0;
-						TestTargetID = FEB2D81F2CBB0B05001B7613;
+						TestTargetID = FED812D32CBB0F07001E2C48;
 					};
-					FEB2D8392CBB0B0A001B7613 = {
+					FED812F32CBB0F09001E2C48 = {
 						CreatedOnToolsVersion = 16.0;
-						TestTargetID = FEB2D81F2CBB0B05001B7613;
+						TestTargetID = FED812D32CBB0F07001E2C48;
 					};
 				};
 			};
-			buildConfigurationList = FEB2D81B2CBB0B05001B7613 /* Build configuration list for PBXProject "hackApp" */;
+			buildConfigurationList = FED812CF2CBB0F07001E2C48 /* Build configuration list for PBXProject "hack-app" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = FEB2D8172CBB0B05001B7613;
+			mainGroup = FED812CB2CBB0F07001E2C48;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = FEB2D8212CBB0B05001B7613 /* Products */;
+			productRefGroup = FED812D52CBB0F07001E2C48 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FEB2D81F2CBB0B05001B7613 /* hackApp */,
-				FEB2D82F2CBB0B0A001B7613 /* hackAppTests */,
-				FEB2D8392CBB0B0A001B7613 /* hackAppUITests */,
+				FED812D32CBB0F07001E2C48 /* hack-app */,
+				FED812E92CBB0F09001E2C48 /* hack-appTests */,
+				FED812F32CBB0F09001E2C48 /* hack-appUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FEB2D81E2CBB0B05001B7613 /* Resources */ = {
+		FED812D22CBB0F07001E2C48 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FEB2D82E2CBB0B0A001B7613 /* Resources */ = {
+		FED812E82CBB0F09001E2C48 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FEB2D8382CBB0B0A001B7613 /* Resources */ = {
+		FED812F22CBB0F09001E2C48 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -232,21 +245,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FEB2D81C2CBB0B05001B7613 /* Sources */ = {
+		FED812D02CBB0F07001E2C48 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FEB2D82C2CBB0B0A001B7613 /* Sources */ = {
+		FED812E62CBB0F09001E2C48 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FEB2D8362CBB0B0A001B7613 /* Sources */ = {
+		FED812F02CBB0F09001E2C48 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -256,20 +269,74 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		FEB2D8322CBB0B0A001B7613 /* PBXTargetDependency */ = {
+		FED812EC2CBB0F09001E2C48 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FEB2D81F2CBB0B05001B7613 /* hackApp */;
-			targetProxy = FEB2D8312CBB0B0A001B7613 /* PBXContainerItemProxy */;
+			target = FED812D32CBB0F07001E2C48 /* hack-app */;
+			targetProxy = FED812EB2CBB0F09001E2C48 /* PBXContainerItemProxy */;
 		};
-		FEB2D83C2CBB0B0A001B7613 /* PBXTargetDependency */ = {
+		FED812F62CBB0F09001E2C48 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FEB2D81F2CBB0B05001B7613 /* hackApp */;
-			targetProxy = FEB2D83B2CBB0B0A001B7613 /* PBXContainerItemProxy */;
+			target = FED812D32CBB0F07001E2C48 /* hack-app */;
+			targetProxy = FED812F52CBB0F09001E2C48 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		FEB2D8422CBB0B0A001B7613 /* Debug */ = {
+		FED812FE2CBB0F09001E2C48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "hack-app/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mariah.hack-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FED812FF2CBB0F09001E2C48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "hack-app/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mariah.hack-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FED813002CBB0F09001E2C48 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -332,7 +399,7 @@
 			};
 			name = Debug;
 		};
-		FEB2D8432CBB0B0A001B7613 /* Release */ = {
+		FED813012CBB0F09001E2C48 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -388,63 +455,7 @@
 			};
 			name = Release;
 		};
-		FEB2D8452CBB0B0A001B7613 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"hackApp/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = mariah.hackApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		FEB2D8462CBB0B0A001B7613 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"hackApp/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = mariah.hackApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		FEB2D8482CBB0B0A001B7613 /* Debug */ = {
+		FED813032CBB0F09001E2C48 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -453,16 +464,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = mariah.hackAppTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "mariah.hack-appTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hackApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hackApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hack-app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hack-app";
 			};
 			name = Debug;
 		};
-		FEB2D8492CBB0B0A001B7613 /* Release */ = {
+		FED813042CBB0F09001E2C48 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,87 +482,87 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = mariah.hackAppTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "mariah.hack-appTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hackApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hackApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hack-app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hack-app";
 			};
 			name = Release;
 		};
-		FEB2D84B2CBB0B0A001B7613 /* Debug */ = {
+		FED813062CBB0F09001E2C48 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = mariah.hackAppUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = "mariah.hack-appUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = hackApp;
+				TEST_TARGET_NAME = "hack-app";
 			};
 			name = Debug;
 		};
-		FEB2D84C2CBB0B0A001B7613 /* Release */ = {
+		FED813072CBB0F09001E2C48 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = mariah.hackAppUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = "mariah.hack-appUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = hackApp;
+				TEST_TARGET_NAME = "hack-app";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FEB2D81B2CBB0B05001B7613 /* Build configuration list for PBXProject "hackApp" */ = {
+		FED812CF2CBB0F07001E2C48 /* Build configuration list for PBXProject "hack-app" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FEB2D8422CBB0B0A001B7613 /* Debug */,
-				FEB2D8432CBB0B0A001B7613 /* Release */,
+				FED813002CBB0F09001E2C48 /* Debug */,
+				FED813012CBB0F09001E2C48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FEB2D8442CBB0B0A001B7613 /* Build configuration list for PBXNativeTarget "hackApp" */ = {
+		FED812FD2CBB0F09001E2C48 /* Build configuration list for PBXNativeTarget "hack-app" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FEB2D8452CBB0B0A001B7613 /* Debug */,
-				FEB2D8462CBB0B0A001B7613 /* Release */,
+				FED812FE2CBB0F09001E2C48 /* Debug */,
+				FED812FF2CBB0F09001E2C48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FEB2D8472CBB0B0A001B7613 /* Build configuration list for PBXNativeTarget "hackAppTests" */ = {
+		FED813022CBB0F09001E2C48 /* Build configuration list for PBXNativeTarget "hack-appTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FEB2D8482CBB0B0A001B7613 /* Debug */,
-				FEB2D8492CBB0B0A001B7613 /* Release */,
+				FED813032CBB0F09001E2C48 /* Debug */,
+				FED813042CBB0F09001E2C48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FEB2D84A2CBB0B0A001B7613 /* Build configuration list for PBXNativeTarget "hackAppUITests" */ = {
+		FED813052CBB0F09001E2C48 /* Build configuration list for PBXNativeTarget "hack-appUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FEB2D84B2CBB0B0A001B7613 /* Debug */,
-				FEB2D84C2CBB0B0A001B7613 /* Release */,
+				FED813062CBB0F09001E2C48 /* Debug */,
+				FED813072CBB0F09001E2C48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FEB2D8182CBB0B05001B7613 /* Project object */;
+	rootObject = FED812CC2CBB0F07001E2C48 /* Project object */;
 }
