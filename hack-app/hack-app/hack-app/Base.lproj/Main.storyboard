@@ -16,39 +16,37 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OHW-JH-ChW">
-                                <rect key="frame" x="69" y="155" width="105" height="74"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Help me!" cornerStyle="capsule"/>
-                                <connections>
-                                    <segue destination="Ol6-9X-jZm" kind="show" id="YfQ-Ub-mju"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="glV-N2-fG2">
-                                <rect key="frame" x="168" y="305" width="135" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="send message"/>
-                                <connections>
-                                    <action selector="sendWhatsAppButtonTapped" destination="BYZ-38-t0r" eventType="touchUpInside" id="B0N-jf-OuU"/>
-                                    <action selector="sendWhatsAppButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="exZ-AQ-WLl"/>
-                                </connections>
-                            </button>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5eB-de-ysB">
-                                <rect key="frame" x="54" y="489" width="97" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6e4-sF-xPH">
+                                <rect key="frame" x="40" y="210" width="244" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hud-nV-GnQ">
-                                <rect key="frame" x="168" y="488" width="59" height="35"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ltF-ef-d1Z">
+                                <rect key="frame" x="299" y="209" width="61" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="save"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Save"/>
                                 <connections>
-                                    <action selector="saveWhatsAppButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7fw-tc-iMC"/>
-                                    <action selector="sendWhatsAppButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uSv-3m-Bub"/>
+                                    <action selector="saveWhatsAppButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AOz-Zi-fCT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rgN-s9-sy5">
+                                <rect key="frame" x="74" y="308" width="68" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Send "/>
+                                <connections>
+                                    <action selector="sendWhatsAppButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tqd-3O-NYF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D4q-RM-Src">
+                                <rect key="frame" x="130" y="555" width="67" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Push!"/>
+                                <connections>
+                                    <action selector="sendNotificationButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gsX-90-Gxc"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -56,7 +54,7 @@
                         <color key="backgroundColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.40628009748095228" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
-                        <outlet property="phoneNumberTextField" destination="5eB-de-ysB" id="VXm-cg-Ix7"/>
+                        <outlet property="phoneNumberTextField" destination="6e4-sF-xPH" id="DoM-M9-RaP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -68,7 +66,7 @@
             <objects>
                 <viewController id="Ol6-9X-jZm" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JTT-PK-Sjo">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="welcom 2 the futr :3" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="scp-5k-EDY">

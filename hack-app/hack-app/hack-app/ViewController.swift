@@ -13,14 +13,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var myButton: UIButton!
     @IBOutlet weak var phoneNumberTextField: UITextField!
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-            
-            // Load saved phone number if available
-        if let savedPhoneNumber = UserDefaults.standard.string(forKey: "savedWhatsAppNumber") {
-            phoneNumberTextField.text = savedPhoneNumber
-        }
-    }
     
     // Action for the "Save" button
     @IBAction func saveWhatsAppButtonTapped(_ sender: UIButton) {
@@ -46,28 +38,9 @@ class ViewController: UIViewController {
         sendWhatsAppMessage(phoneNumber: nil, message: message)
     }
     
-    func dispathNotification() {
-        let title = "You have been notified."
-        let body = "this is your final warning"
-        
-        let notificationCenter = UNUserNotificationCenter.current()
-        
-        let content = UNMutableNotificationContent()
-        content.title = title
-        content.body = body
-        content.sound = .default
-        
-        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 1, repeats: false)
-        
-        let request = UNNotificationRequest(identifier: "myNotification", content: content, trigger: trigger)
-        
-        notificationCenter.add(request) { error in
-            if let error = error {
-                print("Error scheduling notification: \(error.localizedDescription)")
-            } else {
-                print("Notification scheduled successfully")
-            }
-        }
+    // Action for the "Send Notification" button
+    @IBAction func sendNotificationButtonTapped(_ sender: UIButton) {
+        dispathNotification()
     }
     
     func sendWhatsAppMessage(phoneNumber: String?, message: String) {
@@ -80,7 +53,7 @@ class ViewController: UIViewController {
             return
         }
         
-        guard let url = URL(string: "https://your-ngrok-url.ngrok-free.app/send-whatsapp") else { return }
+        guard let url = URL(string: "https://676a-129-107-172-10.ngrok-free.app/send-whatsapp") else { return }
         
         var request = URLRequest(url: url)
         request.httpMethod = "POST"
@@ -106,7 +79,53 @@ class ViewController: UIViewController {
                 print("Failed to send WhatsApp message")
             }
         }
-        
         task.resume()
     }
-}
+        
+        func requestNotficicationPermissions() {
+            let notificationCenter = UNUserNotificationCenter.current()
+            notificationCenter.requestAuthorization(options: [.alert, .sound]) { granted, error in
+                if granted {
+                    print("Notification permissions granted.")
+                } else if let error = error {
+                    print("Failed to request notification permissions: \(error.localizedDescription)")
+                }
+            }
+        }
+        
+        func dispathNotification() {
+            let title = "You have been notified."
+            let body = "This is your final warning"
+            
+            let notificationCenter = UNUserNotificationCenter.current()
+            
+            let content = UNMutableNotificationContent()
+            content.title = title
+            content.body = body
+            content.sound = .default
+            
+            let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 1, repeats: false)
+            
+            let request = UNNotificationRequest(identifier: "myNotification", content: content, trigger: trigger)
+            
+            notificationCenter.add(request) { error in
+                if let error = error {
+                    print("Error scheduling notification: \(error.localizedDescription)")
+                } else {
+                    print("Notification scheduled successfully")
+                }
+            }
+        }
+        
+        override func viewDidLoad() {
+            super.viewDidLoad()
+            
+            // Load saved phone number if available
+            if let savedPhoneNumber = UserDefaults.standard.string(forKey: "savedWhatsAppNumber") {
+                phoneNumberTextField.text = savedPhoneNumber
+            }
+            
+            // Request notification permissions when the app launches
+            requestNotficicationPermissions()
+        }
+    }
