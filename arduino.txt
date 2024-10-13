@@ -1,0 +1,100 @@
+/*const int led = 8;
+const int sensor_pin = A0;
+int sensor;
+const int threshold = 500;
+
+void setup(){
+  pinMode(led, OUTPUT);
+  Serial.begin(96000);
+}
+
+void loop()
+{
+  sensor = analogRead(sensor_pin);
+  Serial.println(sensor);
+  if (sensor<threshold){
+    digitalWrite(led, HIGH);
+  }
+  else
+  {
+    digitalWrite(led, LOW);
+  }
+}*/
+
+const int led_normal_heart = 8; 
+const int led_panic_attack = 9;
+const int sensor_pin = A0;
+int sensor;
+const int threshold_normal_heart_rate = 400;
+const int threshold_panic_attack = 800;
+
+void setup() {
+  pinMode(led_normal_heart, OUTPUT);
+  pinMode(led_panic_attack, OUTPUT);
+  Serial.begin(9600);  // Use the more common 9600 baud rate
+}
+
+void loop() {
+  sensor = analogRead(sensor_pin);
+  Serial.println(sensor);
+
+  // Check for normal heart rate condition
+  if (sensor < threshold_normal_heart_rate) {
+    digitalWrite(led_normal_heart, HIGH);  // Turn on normal heart rate LED
+    digitalWrite(led_panic_attack, LOW);   // Turn off panic attack LED
+  }
+  // Check for panic attack condition
+  else if (sensor > threshold_panic_attack) {
+    digitalWrite(led_panic_attack, HIGH);  // Turn on panic attack LED
+    digitalWrite(led_normal_heart, LOW);   // Turn off normal heart rate LED
+  }
+  // In between (optional, you can decide if both LEDs should be off)
+  else {
+    digitalWrite(led_normal_heart, LOW);  // Turn off normal heart rate LED
+    digitalWrite(led_panic_attack, LOW);  // Turn off panic attack LED
+  }
+  delay(500);
+}
+
+//
+//  ViewController.swift
+//  hack-app
+//
+//  Created by Mariah Jade Gardner on 10/12/24.
+//
+
+import UIKit
+import ORSSerial
+
+class ViewController: UIViewController, UIViewController, ORSerialPortDelegate{
+    var serialPort: ORSSerialPort?
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        setupSerialPort()
+    }
+    
+    func setupSerialPort()
+    {
+        let availablePorts = ORSSerialPortManager.shared().availablePorts
+        
+        if let port = availablePorts.first {
+            serialPort = port
+            serialPort?.baudRate = 9600
+            serialPort?.delegate = self
+            serialPort?.open()
+            
+        }
+        else{
+            print("No serial ports available.")
+        }
+    }
+    
+    func serialPort(_ serialPort: ORSSerialPort, didReceive data: Data){
+        if let message = String (data: data, encoding: .utf8){
+            print("Received: \(message)")
+        }
+    }
+
+
+}
