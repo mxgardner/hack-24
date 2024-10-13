@@ -34,7 +34,7 @@ class ViewController: UIViewController, UNUserNotificationCenterDelegate {
     
     // Action for the "Send" button
     @IBAction func sendWhatsAppButtonTapped(_ sender: UIButton) {
-        let message = "Hello, this is another test WhatsApp message."
+        let message = "Hello, please be advised your loved may be experiancing heightened symptoms of stress and panic."
         sendWhatsAppMessage(phoneNumber: nil, message: message)
     }
     
@@ -89,8 +89,8 @@ class ViewController: UIViewController, UNUserNotificationCenterDelegate {
     
     // MARK: - Push Notification
     func dispathNotification() {
-        let title = "You have been notified."
-        let body = "This is your final warning"
+        let title = "All good?"
+        let body = "Time to check in on your nervous system"
         
         let notificationCenter = UNUserNotificationCenter.current()
         
@@ -123,7 +123,6 @@ class ViewController: UIViewController, UNUserNotificationCenterDelegate {
     @objc func dismissKeyboard() {
         view.endEditing(true)
     }
-    
     // MARK: - Request Notification Permissions
         func requestNotficicationPermissions() {
             let notificationCenter = UNUserNotificationCenter.current()
