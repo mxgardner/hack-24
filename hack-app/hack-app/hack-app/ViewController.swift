@@ -7,10 +7,14 @@
 
 import UIKit
 import UserNotifications
+import ORSSerial
 
-class ViewController: UIViewController, UNUserNotificationCenterDelegate {
+class ViewController: UIViewController, UNUserNotificationCenterDelegate, ORSSerialPortDelegate {
     
-    @IBOutlet weak var myButton: UIButton!
+    @IBOutlet weak var sillyButton: UIButton!
+    @IBOutlet weak var saveButton: UIButton!
+    @IBOutlet weak var sendButton: UIButton!
+    @IBOutlet weak var pushButton: UIButton!
     @IBOutlet weak var phoneNumberTextField: UITextField!
     
     
@@ -146,6 +150,56 @@ class ViewController: UIViewController, UNUserNotificationCenterDelegate {
         if let savedPhoneNumber = UserDefaults.standard.string(forKey: "savedWhatsAppNumber") {
                 phoneNumberTextField.text = savedPhoneNumber
         }
+        
+        // Add gradient background
+            let gradientLayer = CAGradientLayer()
+            gradientLayer.frame = self.view.bounds
+            gradientLayer.colors = [UIColor.systemBlue.cgColor, UIColor.systemIndigo.cgColor]
+            self.view.layer.insertSublayer(gradientLayer, at: 0)
+        
+        // Add Button Stylings
+        saveButton.layer.cornerRadius = 10
+        saveButton.layer.masksToBounds = true
+        saveButton.layer.shadowColor = UIColor.black.cgColor
+        saveButton.layer.shadowOffset = CGSize(width: 0, height: 2)
+        saveButton.layer.shadowOpacity = 0.3
+        saveButton.layer.shadowRadius = 4
+        
+        // Add Button Stylings
+        sendButton.layer.cornerRadius = 10
+        sendButton.layer.masksToBounds = true
+        sendButton.layer.shadowColor = UIColor.black.cgColor
+        sendButton.layer.shadowOffset = CGSize(width: 0, height: 2)
+        sendButton.layer.shadowOpacity = 0.3
+        sendButton.layer.shadowRadius = 4
+        
+        // Add Button Stylings
+        pushButton.layer.cornerRadius = 10
+        pushButton.layer.masksToBounds = true
+        pushButton.layer.shadowColor = UIColor.black.cgColor
+        pushButton.layer.shadowOffset = CGSize(width: 0, height: 2)
+        pushButton.layer.shadowOpacity = 0.3
+        pushButton.layer.shadowRadius = 4
+        
+        // Style phone number text field
+        phoneNumberTextField.placeholder = "Enter your phone number"
+        phoneNumberTextField.backgroundColor = UIColor.white
+        phoneNumberTextField.textColor = UIColor.black
+        phoneNumberTextField.layer.borderWidth = 0
+        phoneNumberTextField.layer.cornerRadius = 10
+
+        // Ensure the shadow is not clipped by the bounds
+        phoneNumberTextField.layer.masksToBounds = false
+
+        // Add shadow to the UITextField
+        phoneNumberTextField.layer.shadowColor = UIColor.black.cgColor // Shadow color
+        phoneNumberTextField.layer.shadowOpacity = 0.3 // Shadow opacity
+        phoneNumberTextField.layer.shadowOffset = CGSize(width: 0, height: 2) // Shadow offset (position)
+        phoneNumberTextField.layer.shadowRadius = 4 // Shadow blur radius
+        
+        let sillyIcon = UIImage(systemName: "tortoise.fill")
+        sillyButton.setImage(sillyIcon, for: .normal)
+        sillyButton.imageEdgeInsets = UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
             
         // Request notification permissions when the app launches
         requestNotficicationPermissions()
